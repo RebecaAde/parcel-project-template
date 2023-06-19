@@ -1,0 +1,19 @@
+/*@import './utils/hero-header-modal.scss';
+
+
+
+
+
+@import './variables';
+*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@import './main';
+@import './advantages';
+@import './products';
+@import './gallery';
+@import './testimonials';
+@import './contacts';
+@import './footer';
