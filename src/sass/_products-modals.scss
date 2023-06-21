@@ -100,17 +100,18 @@
   transform: scale(1.1);
 }
 .products__modal-close-button {
-  background: #ffffff;
-  width: 37px;
+  width: 35px;
   height: 37px;
+  color: #fff;
   background: #ffa5ba;
+  border: 0;
   border-radius: 50%;
   position: absolute;
-  top: 37px;
-  left: 1164px;
-  border: 0;
-  color: white;
-  background-color: #ffa5ba;
+  top: 23px;
+  left: 309px;
+}
+.products__modal-close-button:hover {
+  background-color: #d41443;
 }
 .products__modal-container {
   width: 320px;
@@ -137,7 +138,32 @@
   .products__modal-heading {
     font-size: 48px;
     line-height: 55px;
-    margin-top: 60px;
+    margin-top: 100px;
+  }
+  .products__modal-name {
+    font-size: 30px;
+  }
+  .products__modal-info {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 194%;
+    letter-spacing: 0.04em;
+    color: #907e82;
+  }
+  .products__modal-close-button {
+    background: #ffffff;
+    width: 37px;
+    height: 37px;
+    background: #ffa5ba;
+    border-radius: 50%;
+    position: absolute;
+    top: 37px;
+    left: 741px;
+    border: 0;
+    color: white;
+    background-color: #ffa5ba;
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 6000px) {
@@ -158,5 +184,30 @@
     font-size: 48px;
     line-height: 55px;
     margin-top: 60px;
+  }
+  .products__modal-name {
+    font-size: 30px;
+  }
+  .products__modal-info {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 194%;
+    letter-spacing: 0.04em;
+    color: #907e82;
+  }
+  .products__modal-close-button {
+    background: #ffffff;
+    width: 37px;
+    height: 37px;
+    background: #ffa5ba;
+    border-radius: 50%;
+    position: absolute;
+    top: 37px;
+    left: 1164px;
+    border: 0;
+    color: white;
+    background-color: #ffa5ba;
   }
 }

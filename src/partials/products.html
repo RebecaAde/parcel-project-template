@@ -16,6 +16,9 @@
         <button data-open-modal type="button" class="products__button"></button>
         <dialog class="products__modal" data-modal>
           <h1 class="products__modal-heading">Our Delicious Ice Creams</h1>
+          <button class="products__modal-close-button" data-close-modal>
+            X
+          </button>
           <div class="products__modal-container">
             <div class="products__modal-item">
               <img
@@ -119,10 +122,6 @@
               </p>
             </div>
           </div>
-
-          <button class="products__modal-close-button" data-close-modal>
-            X
-          </button>
         </dialog>
       </li>
       <li class="products__item ice-coffee--background">
@@ -141,89 +140,88 @@
 
         <dialog class="products__modal--ice-coffee" data-modal>
           <h1 class="products__modal-heading">Our Delicious Ice Coffee</h1>
-          <div class="products__modal-container">
-            <div class="products__modal-item">
-              <img
-                class="products__modal-img"
-                src="./images/Classic-Iced-Coffee.png"
-                alt="Vanilla Ice Cream"
-              />
-              <h2 class="products__modal-name">Classic Iced Coffee</h2>
-              <p class="products__modal-info">
-                Traditional, simple and refreshing - freshly brewed coffee
-                served over ice.
-              </p>
-            </div>
-
-            <div class="products__modal-item">
-              <img
-                class="products__modal-img"
-                src="./images/iced-espresso.png"
-                alt="Chocolate Ice Cream"
-              />
-              <h2 class="products__modal-name">Iced Espresso</h2>
-              <p class="products__modal-info">
-                Energizing, with a cooled shot of espresso poured over ice
-              </p>
-            </div>
-
-            <div class="products__modal-item">
-              <img
-                class="products__modal-img"
-                src="./images/tangerine_iced_mocha.png"
-                alt="Strawberry Ice Cream"
-              />
-              <h2 class="products__modal-name">Iced Mocha</h2>
-              <p class="products__modal-info">
-                Sweet and chocolaty - a mix of coffee, milk, and chocolate
-                syrup, served over ice.
-              </p>
-            </div>
-
-            <div class="products__modal-item">
-              <img
-                class="products__modal-img"
-                src="./images/Iced-Caramel-Macchiato.png"
-                alt="Mint Chocolate Chip Ice Cream"
-              />
-              <h2 class="products__modal-name">Iced Caramel Macchiato</h2>
-              <p class="products__modal-info">
-                Delicious and creamy, with vanilla essence, milk, espresso, and
-                a drizzle of caramel.
-              </p>
-            </div>
-
-            <div class="products__modal-item">
-              <img
-                class="products__modal-img"
-                src="./images/iced-cappucino.png"
-                alt="Salted Caramel Ice Cream"
-              />
-              <h2 class="products__modal-name">Iced Cappuccino</h2>
-              <p class="products__modal-info">
-                The classic cappuccino, but with a refreshing twist - served
-                over ice.
-              </p>
-            </div>
-
-            <div class="products__modal-item">
-              <img
-                class="products__modal-img"
-                src="./images/iced_flat_white.png"
-                alt="Cookies and Cream Ice Cream"
-              />
-              <h2 class="products__modal-name">Iced Flat White</h2>
-              <p class="products__modal-info">
-                Smooth and balanced, with an equal ratio of coffee to milk,
-                served over ice.
-              </p>
-            </div>
-          </div>
-
           <button class="products__modal-close-button" data-close-modal>
             X
           </button>
         </dialog>
+        <div class="products__modal-container">
+          <div class="products__modal-item">
+            <img
+              class="products__modal-img"
+              src="./images/Classic-Iced-Coffee.png"
+              alt="Vanilla Ice Cream"
+            />
+            <h2 class="products__modal-name">Classic Iced Coffee</h2>
+            <p class="products__modal-info">
+              Traditional, simple and refreshing - freshly brewed coffee served
+              over ice.
+            </p>
+          </div>
+
+          <div class="products__modal-item">
+            <img
+              class="products__modal-img"
+              src="./images/iced-espresso.png"
+              alt="Chocolate Ice Cream"
+            />
+            <h2 class="products__modal-name">Iced Espresso</h2>
+            <p class="products__modal-info">
+              Energizing, with a cooled shot of espresso poured over ice
+            </p>
+          </div>
+
+          <div class="products__modal-item">
+            <img
+              class="products__modal-img"
+              src="./images/tangerine_iced_mocha.png"
+              alt="Strawberry Ice Cream"
+            />
+            <h2 class="products__modal-name">Iced Mocha</h2>
+            <p class="products__modal-info">
+              Sweet and chocolaty - a mix of coffee, milk, and chocolate syrup,
+              served over ice.
+            </p>
+          </div>
+
+          <div class="products__modal-item">
+            <img
+              class="products__modal-img"
+              src="./images/Iced-Caramel-Macchiato.png"
+              alt="Mint Chocolate Chip Ice Cream"
+            />
+            <h2 class="products__modal-name">Iced Caramel Macchiato</h2>
+            <p class="products__modal-info">
+              Delicious and creamy, with vanilla essence, milk, espresso, and a
+              drizzle of caramel.
+            </p>
+          </div>
+
+          <div class="products__modal-item">
+            <img
+              class="products__modal-img"
+              src="./images/iced-cappucino.png"
+              alt="Salted Caramel Ice Cream"
+            />
+            <h2 class="products__modal-name">Iced Cappuccino</h2>
+            <p class="products__modal-info">
+              The classic cappuccino, but with a refreshing twist - served over
+              ice.
+            </p>
+          </div>
+
+          <div class="products__modal-item">
+            <img
+              class="products__modal-img"
+              src="./images/iced_flat_white.png"
+              alt="Cookies and Cream Ice Cream"
+            />
+            <h2 class="products__modal-name">Iced Flat White</h2>
+            <p class="products__modal-info">
+              Smooth and balanced, with an equal ratio of coffee to milk, served
+              over ice.
+            </p>
+          </div>
+        </div>
       </li>
 
       <li class="products__item milkshake--background">
@@ -241,6 +239,9 @@
         ></button>
         <dialog class="products__modal--milkshake" data-modal>
           <h1 class="products__modal-heading">Our Delicious Milkshakes</h1>
+          <button class="products__modal-close-button" data-close-modal>
+            X
+          </button>
           <div class="products__modal-container">
             <div class="products__modal-item">
               <img
@@ -307,10 +308,6 @@
               </p>
             </div>
           </div>
-
-          <button class="products__modal-close-button" data-close-modal>
-            X
-          </button>
         </dialog>
       </li>
     </ul>
