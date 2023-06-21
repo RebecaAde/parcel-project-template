@@ -109,6 +109,7 @@
   position: absolute;
   top: 23px;
   left: 309px;
+  cursor: pointer;
 }
 .products__modal-close-button:hover {
   background-color: #d41443;
@@ -120,6 +121,24 @@
   align-content: center;
   align-items: center;
   justify-content: space-evenly;
+}
+.products__modal-subheading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 194%;
+  letter-spacing: 0.04em;
+  color: #907e82;
+}
+.products_modal-esc {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 194%;
+  letter-spacing: 0.04em;
+  color: #907e82;
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .products__modal-container {
