@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700;900&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700;900&family=Titan+One&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -135,7 +138,6 @@
 .products__button::after {
   content: url(../images/arrow-right_4_360.png);
 }
-
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .products-container {
     padding: 60px 16px;
