@@ -1,6 +1,6 @@
 // document.addEventListener('DOMContentLoaded', () => {
-//   const openModalButtons = document.querySelectorAll('[open-modal]');
-//   const closeButtons = document.querySelectorAll('[close-modal]');
+// //   const openModalButtons = document.querySelectorAll('[open-modal]');
+// const closeButtons = document.querySelectorAll('[close-modal]');
 //   const modals = document.querySelectorAll('[products-modal]');
 
 //   openModalButtons.forEach(button => {
@@ -15,16 +15,16 @@
 //     });
 //   });
 
-//   closeButtons.forEach(button => {
-//     button.addEventListener('click', function () {
-//       const modalId = this.getAttribute('close-modal');
-//       const modal = document.querySelector(`[products-modal="${modalId}"]`);
-//       if (modal) {
-//         modal.style.display = 'none';
-//         document.body.style.overflow = ''; // Enable scrolling on the body
-//       }
-//     });
+// closeButtons.forEach(button => {
+//   button.addEventListener('click', function () {
+//     const modalId = this.getAttribute('close-modal');
+//     const modal = document.querySelector(`[products-modal="${modalId}"]`);
+//     if (modal) {
+//       modal.style.display = 'none';
+//       document.body.style.overflow = ''; // Enable scrolling on the body
+//     }
 //   });
+// });
 
 //   window.addEventListener('click', function (event) {
 //     modals.forEach(modal => {
@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function handleCloseModalClick(event) {
     const modalId = event.currentTarget.getAttribute('close-modal');
     const modal = document.querySelector(`[products-modal="${modalId}"]`);
+    console.log('Close button clicked'); // Add this line to test
     toggleModal(modal, 'close');
   }
 
